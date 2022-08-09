@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:id="@+id/tv_username"
-        android:text="Username"
+        android:id="@+id/tv_name"
+        android:text="Name"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -18,18 +18,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:id="@+id/tv_name"
-        android:text="Name"
-        app:layout_constraintTop_toBottomOf="@id/tv_username"
+        android:id="@+id/tv_username"
+        android:text="Username"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:id="@+id/tv_email"
         android:text="Gmail"
-        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_username"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
